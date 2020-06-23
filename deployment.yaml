@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
  labels:
-   service: udagram-api-user
+   app: udagram-api-user
  name: udagram-api-user
 spec:
  replicas: 1
